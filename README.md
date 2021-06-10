@@ -50,11 +50,11 @@ Using the top variables I ran a SARIMAX model for each combination.
 
 (top 5 models by test RMSE)
 
-<img src="https://github.com/s-shader/Stock-Market-Analysis-and-Prediction/blob/main/pics/combo_exog_tables_RMSE.png" width="700" height="300">
+<img src="https://github.com/s-shader/Stock-Market-Analysis-and-Prediction/blob/main/pics/combo_exog_tables_RMSE.png" width="700" height="370">
 
 (top 5 models by AIC)
 
-<img src="https://github.com/s-shader/Stock-Market-Analysis-and-Prediction/blob/main/pics/combo_exog_tables_aic.png" width="700" height="300">
+<img src="https://github.com/s-shader/Stock-Market-Analysis-and-Prediction/blob/main/pics/combo_exog_tables_aic.png" width="700" height="370">
 
 This time many of the models did better than the baseline with the 10 year treasury rate, dividend, and earnings doing the best.
 Most notably the SARIMAX model with 10 year treasury rate, and tuning of pdqs did better than the more complex models with the 2nd best test RMSE and 4th best AIC. It also was statisticly significant in this and other top models.
