@@ -10,4 +10,6 @@
 
 S&P 500 monthly prices along with 10 other economic and financial variables grabbed from https://www.multpl.com/s-p-500-historical-prices.
 
-<img src="https://github.com/s-shader/real-estat-investment-analysis-and-projection/blob/main/pics/init_data.png" width="800" height="220">
+<img src="https://github.com/s-shader/Stock-Market-Analysis-and-Prediction/blob/main/pics/init_data.png" width="800" height="220">
+
+
