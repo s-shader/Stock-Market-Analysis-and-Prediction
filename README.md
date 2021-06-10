@@ -17,7 +17,8 @@ S&P 500 monthly prices along with 10 other economic and financial variables grab
 
 I started by collecting the data from multpl using 'read_html.' See the full process in the data_gathering file.
 Once I had the data I inspected it for trends and found a clear upward trend with time for most of the data
-https://github.com/s-shader/Stock-Market-Analysis-and-Prediction/blob/main/pics/data_graph.png
+
+<img src="https://github.com/s-shader/Stock-Market-Analysis-and-Prediction/blob/main/pics/data_graph.png" width="500" height="500">
 
 Given this I ran a correlation table.
 https://github.com/s-shader/Stock-Market-Analysis-and-Prediction/blob/main/pics/corr_table.png
