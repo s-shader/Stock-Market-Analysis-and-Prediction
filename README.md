@@ -66,12 +66,12 @@ Most notably the SARIMAX model with 10 year treasury rate, and tuning of pdqs di
 Next, I ran the same variables through facebook prohpet modesl.
 I created a baseline with just price and with each variable.
 
-<img src="https://github.com/s-shader/Stock-Market-Analysis-and-Prediction/blob/main/pics/fb_pro_table.png" width="600" height="450">
+<img src="https://github.com/s-shader/Stock-Market-Analysis-and-Prediction/blob/main/pics/fb_pro_table.png" width="700" height="450">
 
 This time most of the variables did noticeably better than the baseline. 
 Agaain I ran combinations of all of the top models through this process.
 
-<img src="https://github.com/s-shader/Stock-Market-Analysis-and-Prediction/blob/main/pics/fb_pro_tables2.png" width="600" height="450">
+<img src="https://github.com/s-shader/Stock-Market-Analysis-and-Prediction/blob/main/pics/fb_pro_tables2.png" width="760" height="450">
 
 This further shrunk the errors, however, while it was much better than the baseline it was worse than the ARIMA and SARIMAX models.
 It did however, highlight 10 year treasury rates and inflation as having the most significant impost.
