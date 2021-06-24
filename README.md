@@ -60,18 +60,18 @@ This time many of the models did better than the baseline with the 10 year treas
 Most notably, the SARIMAX model with 10 year treasury rate, and tuning of pdqs did better than the more complex models with the 2nd best test RMSE and 4th best AIC. It also was statistically significant in this and other top models.
 
 <img src="https://github.com/s-shader/Stock-Market-Analysis-and-Prediction/blob/main/pics/treasury_rate_grph.png" width="600" height="450">
-<img src="https://github.com/s-shader/Stock-Market-Analysis-and-Prediction/blob/main/pics/treasury_rate_table.png" width="600" height="450">
+<img src="https://github.com/s-shader/Stock-Market-Analysis-and-Prediction/blob/main/pics/treasury_rate_table.png" >
 
 ## Facebook Prophet Models
 Next, I ran the same variables through Facebook Prophet Models.
 I created a baseline with just price and with each variable.
 
-<img src="https://github.com/s-shader/Stock-Market-Analysis-and-Prediction/blob/main/pics/fb_pro_table.png" width="700" height="450">
+<img src="https://github.com/s-shader/Stock-Market-Analysis-and-Prediction/blob/main/pics/fb_pro_table.png" >
 
 This time most of the variables did noticeably better than the baseline. 
 Again, I ran combinations of all of the top models through this process.
 
-<img src="https://github.com/s-shader/Stock-Market-Analysis-and-Prediction/blob/main/pics/fb_pro_tables2.png" width="760" height="450">
+<img src="https://github.com/s-shader/Stock-Market-Analysis-and-Prediction/blob/main/pics/fb_pro_tables2.png" >
 
 This further shrunk the errors, however, while it was much better than the baseline, it was worse than the ARIMA and SARIMAX models.
 It did however, highlight 10 year treasury rates and Inflation as having the most significant impact.
