@@ -18,11 +18,11 @@ S&P 500 monthly prices along with 10 other economic and financial variables grab
 I started by collecting the data from Multpl using 'read_html.' See the full process in the data_gathering file.
 Once I had the data, I inspected it for trends and found a clear upward trend over time for most of the data.
 
-<img src="https://github.com/s-shader/Stock-Market-Analysis-and-Prediction/blob/main/pics/data_graph.png" width="600" height="450">
+<img src="https://github.com/s-shader/Stock-Market-Analysis-and-Prediction/blob/main/pics/data_graph.png" >
 
 Given this, I ran a correlation table.
 
-<img src="https://github.com/s-shader/Stock-Market-Analysis-and-Prediction/blob/main/pics/corr_table.png" width="600" height="450">
+<img src="https://github.com/s-shader/Stock-Market-Analysis-and-Prediction/blob/main/pics/corr_table.png" >
 
 Much of the data was somewhat correlated but Earnings, Dividend, Inflation, and CPI had the strongest connections.
 
