@@ -4,7 +4,7 @@
 
 # Scenario:
 
-## As an analyst for an investment firm I am tasked with finding variables, or indicators to more accurately predict market movements and maximize returns.
+## As an analyst for an investment firm I am tasked with finding variables, or indicators, to predict more accurately market movements and to maximize returns.
 
 # Data:
 
@@ -44,7 +44,7 @@ Next I ran the same model but with each of the variables.
 
 <img src="https://github.com/s-shader/Stock-Market-Analysis-and-Prediction/blob/main/pics/init_sarimax_table.png" width="600" height="450">
 
-All of these models underperformed the baseline. 10 year treasury rate and Dividend did, however, stand out doing well by comparison.
+All of these models underperformed the baseline. 10-year-treasury-rate and Dividend did, however, stand out doing well by comparison.
 
 Using the top variables I ran a SARIMAX model for each combination.
 
@@ -56,8 +56,8 @@ Using the top variables I ran a SARIMAX model for each combination.
 
 <img src="https://github.com/s-shader/Stock-Market-Analysis-and-Prediction/blob/main/pics/combo_exog_tables_aic.png" >
 
-This time many of the models did better than the baseline with the 10 year treasury rate, Dividend, and Earnings doing the best.
-Most notably, the SARIMAX model with 10 year treasury rate, and tuning of pdqs did better than the more complex models with the 2nd best test RMSE and 4th best AIC. It also was statistically significant in this and other top models.
+This time many of the models did better than the baseline with the 10-year-treasury-rate, Dividend, and Earnings doing the best.
+Most notably, the SARIMAX model with 10-year-treasury-rate, and tuning of pdqs did better than the more complex models with the 2nd best test RMSE and 4th best AIC. It also was statistically significant in this and other top models.
 
 <img src="https://github.com/s-shader/Stock-Market-Analysis-and-Prediction/blob/main/pics/treasury_rate_grph.png" width="600" height="450">
 <img src="https://github.com/s-shader/Stock-Market-Analysis-and-Prediction/blob/main/pics/treasury_rate_table.png" >
@@ -73,17 +73,17 @@ Again, I ran combinations of all of the top models through this process.
 
 <img src="https://github.com/s-shader/Stock-Market-Analysis-and-Prediction/blob/main/pics/fb_pro_tables2.png" >
 
-This further shrunk the errors, however, while it was much better than the baseline, it was worse than the ARIMA and SARIMAX models.
-It did however, highlight 10 year treasury rates and Inflation as having the most significant impact.
+This further shrunk the errors. However, while it was much better than the baseline, it was worse than the ARIMA and SARIMAX models.
+It did, however, highlight 10-year-treasury-rate and Inflation as having the most significant impact.
 
 # Conclusion
 My best models failed to predict future prices to a degree of accuracy that would be useful. They did, however, show the importance of certain variables when looking at market prices.
-10 year treasury rates consistently improved model accuracy and was statistically significant. Moreover, it had a fairly consistent coefficient ranging from -2.7 to -3.1. Earnings, Inflation, and CPI were also quite useful in terms of increasing model accuracy. 
+The 10-year treasury rate consistently improved model accuracy and was statistically significant. Moreover, it had a fairly consistent coefficient ranging from -2.7 to -3.1. Earnings, Inflation, and CPI were also quite useful in terms of increasing model accuracy. 
 
-Finally, this process did successfully serve as a "proof of concept" for using market and economic variables to predict future prices. While these models were not very accurate, they did improve relative accuracy by as much as 33.1%. This would, at least, imply that with the right combination of variables in the right model accuracy could be improved enough to be useful.
+Finally, this process did successfully serve as a "proof of concept" for using market and economic variables to predict future prices. While these models were not very accurate, they did improve relative accuracy by as much as 33.1%. This would, at least, imply that with the right combination of variables in the right model, accuracy could be improved enough to be useful.
 
 # Future Work
-As noted above my ARIMA models were much more accurate than the Facebook Prophet Models. As such, experimenting with other types of models could prove profitable. Additionaly, my models only used 10 exogenous variables. It is probably worth exploring other financial and economic variables.
+As noted above, my ARIMA models were much more accurate than the Facebook Prophet Models. As such, experimenting with other types of models could prove profitable. Additionaly, my models only used 10 exogenous variables. It is probably worth exploring other financial and economic variables.
 
 Finally, my model was over a long time span, from 1872-2020, and on a monthly basis. It is quite possible that there are trends that exist on a shorter timespan or on an intra-monthly basis.
 
