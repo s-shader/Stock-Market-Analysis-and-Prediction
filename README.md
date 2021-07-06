@@ -50,7 +50,7 @@ This created an initial model with an AIC of 7034.6674 and a test RMSE of 311.01
 
 Next I ran the same model but with each of the variables.
 
-<u> Baseline Model With Exogenous Variables </u>
+<u> Baseline SARIMAX Model With Exogenous Variables </u>
 
 <img src="https://github.com/s-shader/Stock-Market-Analysis-and-Prediction/blob/main/pics/init_sarimax_table.png" width="600" height="450">
 
