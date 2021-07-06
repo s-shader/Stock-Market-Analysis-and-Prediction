@@ -24,7 +24,7 @@ Once I had the data, I inspected it for trends and found a clear upward trend ov
 
 Given this, I ran a correlation table.
 
-<u> Variable Correlation Table </u>
+<u> Correlation Table: correlation of each variable with Price </u>
 <img src="https://github.com/s-shader/Stock-Market-Analysis-and-Prediction/blob/main/pics/corr_table.png" >
 
 Much of the data was somewhat correlated but Earnings, Dividend, Inflation, and CPI had the strongest connections.
