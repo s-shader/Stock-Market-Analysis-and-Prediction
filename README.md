@@ -32,6 +32,7 @@ Much of the data was somewhat correlated but Earnings, Dividend, Inflation, and 
 Given this upward trend, I ran a stationarity test and found that all but a few variables were not stationary.
 
 <u> CPI Stationarity Test Example </u>
+
 <img src="https://github.com/s-shader/Stock-Market-Analysis-and-Prediction/blob/main/pics/stationarity.png" width="600" height="450">
 
 Even after 50 lags stationarity was not met.
@@ -41,6 +42,7 @@ Even after 50 lags stationarity was not met.
 I started by running a baseline ARIMA model with no exogenous variables and using itertools to find the best pdqs.
 
 <u> Basline Model Graph </u>
+
 <img src="https://github.com/s-shader/Stock-Market-Analysis-and-Prediction/blob/main/pics/initial%20model.png" width="600" height="450">
 
 This created an initial model with an AIC of 7034.6674 and a test RMSE of 311.0111.
@@ -82,6 +84,7 @@ I created a baseline with just price and with each variable.
 This time most of the variables did noticeably better than the baseline. 
 Again, I ran combinations of all of the top models through this process.
 
+<u> Facebook Proph Model With Exogenous Variable Compinations </u>
 <img src="https://github.com/s-shader/Stock-Market-Analysis-and-Prediction/blob/main/pics/fb_pro_tables2.png" >
 
 This further shrunk the errors. However, while it was much better than the baseline, it was worse than the ARIMA and SARIMAX models.
