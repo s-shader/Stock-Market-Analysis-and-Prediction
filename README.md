@@ -42,7 +42,7 @@ Even after 50 lags stationarity was not met.
 
 I started by running a baseline ARIMA model with no exogenous variables and using itertools to find the best pdqs.
 
-<u> Basline Model Graph </u>
+<u> Baseline ARIMA Model Graph </u>
 
 <img src="https://github.com/s-shader/Stock-Market-Analysis-and-Prediction/blob/main/pics/initial%20model.png" width="600" height="450">
 
