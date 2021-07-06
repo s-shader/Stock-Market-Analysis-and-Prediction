@@ -71,6 +71,7 @@ This time many of the models did better than the baseline with the 10-year-treas
 Most notably, the SARIMAX model with 10-year-treasury-rate, and tuning of pdqs did better than the more complex models with the 2nd best test RMSE and 4th best AIC. It also was statistically significant in this and other top models.
 
 <u> SARIMAX 10-year-treasury-rate Model: Graph & Table  </u>
+
 <img src="https://github.com/s-shader/Stock-Market-Analysis-and-Prediction/blob/main/pics/treasury_rate_grph.png" width="600" height="450">
 <img src="https://github.com/s-shader/Stock-Market-Analysis-and-Prediction/blob/main/pics/treasury_rate_table.png" >
 
