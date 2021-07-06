@@ -78,13 +78,13 @@ Most notably, the SARIMAX model with 10-year-treasury-rate, and tuning of pdqs d
 Next, I ran the same variables through Facebook Prophet Models.
 I created a baseline with just price and with each variable.
 
-<u> Facebook Proph Model With Exogenous Variables </u>
+<u> Facebook Prophet Model With Exogenous Variables </u>
 <img src="https://github.com/s-shader/Stock-Market-Analysis-and-Prediction/blob/main/pics/fb_pro_table.png" >
 
 This time most of the variables did noticeably better than the baseline. 
 Again, I ran combinations of all of the top models through this process.
 
-<u> Facebook Proph Model With Exogenous Variable Compinations </u>
+<u> Facebook Prophet Model With Exogenous Variable Compinations </u>
 <img src="https://github.com/s-shader/Stock-Market-Analysis-and-Prediction/blob/main/pics/fb_pro_tables2.png" >
 
 This further shrunk the errors. However, while it was much better than the baseline, it was worse than the ARIMA and SARIMAX models.
