@@ -68,6 +68,7 @@ Using the top variables I ran a SARIMAX model for each combination.
 This time many of the models did better than the baseline with the 10-year-treasury-rate, Dividend, and Earnings doing the best.
 Most notably, the SARIMAX model with 10-year-treasury-rate, and tuning of pdqs did better than the more complex models with the 2nd best test RMSE and 4th best AIC. It also was statistically significant in this and other top models.
 
+<u> SARIMAX 10-year-treasury-rate Model: Graph & Table  </u>
 <img src="https://github.com/s-shader/Stock-Market-Analysis-and-Prediction/blob/main/pics/treasury_rate_grph.png" width="600" height="450">
 <img src="https://github.com/s-shader/Stock-Market-Analysis-and-Prediction/blob/main/pics/treasury_rate_table.png" >
 
@@ -75,6 +76,7 @@ Most notably, the SARIMAX model with 10-year-treasury-rate, and tuning of pdqs d
 Next, I ran the same variables through Facebook Prophet Models.
 I created a baseline with just price and with each variable.
 
+<u> Facebook Proph Model With Exogenous Variables </u>
 <img src="https://github.com/s-shader/Stock-Market-Analysis-and-Prediction/blob/main/pics/fb_pro_table.png" >
 
 This time most of the variables did noticeably better than the baseline. 
