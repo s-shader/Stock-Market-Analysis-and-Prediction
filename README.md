@@ -31,7 +31,7 @@ Much of the data was somewhat correlated but Earnings, Dividend, Inflation, and 
 
 Given this upward trend, I ran a stationarity test and found that all but a few variables were not stationary.
 
-<u> test </u>
+<u> CPI Stationarity Test Example </u>
 <img src="https://github.com/s-shader/Stock-Market-Analysis-and-Prediction/blob/main/pics/stationarity.png" width="600" height="450">
 
 Even after 50 lags stationarity was not met.
