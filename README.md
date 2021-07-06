@@ -58,12 +58,10 @@ All of these models underperformed the baseline. 10-year-treasury-rate and Divid
 
 Using the top variables I ran a SARIMAX model for each combination.
 
-(top 5 models by test RMSE)
 
 <u> Model Results: 5 best test RMSE scores </u>
 <img src="https://github.com/s-shader/Stock-Market-Analysis-and-Prediction/blob/main/pics/combo_exog_tables_RMSE.png" >
 
-(top 5 models by AIC)
 
 <u> Model Results: 5 best test AIC scores </u>
 <img src="https://github.com/s-shader/Stock-Market-Analysis-and-Prediction/blob/main/pics/combo_exog_tables_aic.png" >
